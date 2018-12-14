@@ -31,7 +31,7 @@ SECRET_KEY = 'd1(&y)=y$bvto*8(&#^25a!11t-jheaena7!mkhc06g)ja0-f8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['67.205.162.178']
 
 
 # Application definition
