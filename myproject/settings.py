@@ -132,6 +132,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
+WKHTMLTOPDF_CMD = 'xvfb-run -a wkhtmltopdf'
 LOGOUT_REDIRECT_URL = 'home'
 
 LOGIN_REDIRECT_URL = 'home'
